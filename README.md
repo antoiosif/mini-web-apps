@@ -1,5 +1,5 @@
 # mini-web-apps
-A repository with mini web apps created with HTML, CSS and JavaScript.
+A repository with mini web apps created with **HTML**, **CSS** and **JavaScript**.
 
 [02. ColorFinder](#colorfinder)
 
@@ -22,4 +22,4 @@ Every time users click the **CLICK ME!** button a new color is generated. The ba
 
 <ins>Tech stack</ins>
 
-HTML - Bootstrap - jQuery
+**HTML** - **Bootstrap** - **jQuery**
