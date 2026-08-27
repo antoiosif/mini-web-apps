@@ -12,4 +12,4 @@ https://github.com/user-attachments/assets/565ecb27-830f-4a2c-804c-4aef30dbc88d
 - **Responsive design** for a consistent and optimal user experience across various screen sizes and devices (desktops, tablets, mobile phones).
 
 ## Tech stack
-HTML - Bootstrap - jQuery
+**HTML** - **Bootstrap** - **jQuery**
