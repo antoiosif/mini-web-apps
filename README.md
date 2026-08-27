@@ -4,13 +4,11 @@ A repository with mini web apps created with **HTML**, **CSS** and **JavaScript*
 [02. ColorFinder](#colorfinder)
 
 ## ColorFinder
-![View of the app in different screen sizes](/assets/images/color-finder-presentation.jpg)
-
-Go to [ColorFinder app file](https://github.com/antoiosif/mini-web-apps/tree/main/color-finder-app)
+https://github.com/user-attachments/assets/565ecb27-830f-4a2c-804c-4aef30dbc88d
 
 <ins>Description</ins>
 
-**ColorFinder** is a web app for generating colors in RGB mode, HEX mode or named HTML colors.
+[**ColorFinder**](https://github.com/antoiosif/mini-web-apps/tree/main/color-finder-app) is a web app for generating colors in RGB mode, HEX mode or named HTML colors.
 
 Every time users click the **CLICK ME!** button a new color is generated. The background of the viewport changes to this color and its value appears in the color tag for the users to copy and use it in their digital projects.
 
