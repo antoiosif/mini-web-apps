@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/565ecb27-830f-4a2c-804c-4aef30dbc88d
 
 <ins>Description</ins>
 
-[**ColorFinder**](https://github.com/antoiosif/mini-web-apps/tree/main/color-finder-app) is a web app for generating colors in RGB mode, HEX mode or named HTML colors.
+[**ColorFinder**](https://github.com/antoiosif/mini-web-apps/tree/main/02.color-finder-app) is a web app for generating colors in RGB mode, HEX mode or named HTML colors.
 
 Every time users click the **CLICK ME!** button a new color is generated. The background of the viewport changes to this color and its value appears in the color tag for the users to copy and use it in their digital projects.
 
