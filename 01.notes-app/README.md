@@ -4,6 +4,8 @@
 
 ![Notes app: Features and views of the frontend](../assets/images/notes-presentation.jpg)
 
+https://github.com/user-attachments/assets/0eb9c391-8956-427f-af6a-e12ac2af4008
+
 ## Features
 - **Create notes**: Users are allowed to create an unlimited number of notes with up to 150 characters each. There is a character counter that shows in real time the number of characters typed, so that the user can know when the above limit has been reached.
 - **Mark notes as completed**: User’s notes appear as a handy checklist where just one click marks a note as “completed” or unmarks it. The appearance of the “completed” note changes to easily differentiate it from the other notes.
