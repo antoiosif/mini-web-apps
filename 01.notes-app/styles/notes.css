@@ -1,0 +1,182 @@
+/* Styling for Header */
+.header {
+  height: var(--height-header);
+  padding: 0 var(--spacing-l);
+  background-color: var(--color-header);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-m);
+}
+
+.datetime {
+  color: var(--color-light);
+  line-height: 1.5rem;
+}
+
+/* Styling for Main */
+.main {
+  height: var(--height-main-mobile);
+  padding: var(--spacing-m);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-m);
+}
+
+/* Filters */
+.filters {
+  height: var(--height-filters);
+  display: flex;
+  gap: var(--spacing-s);
+}
+
+.btn-filter {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 100px;
+  background-color: var(--bg-note-light);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.active {
+  background-color: var(--color-brand-3);
+  color: var(--color-light);
+}
+
+/* Notes */
+.notes-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-s);
+  overflow: auto;
+}
+
+.not-found {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-m);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.not-found-img {
+  width: 50px;
+  height: 100px;
+  background-image: url("../img/logo-silhouette.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  opacity: 30%;
+}
+
+.note {
+  background-color: var(--bg-note-dark);
+  padding: var(--spacing-s);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: var(--spacing-s);
+}
+
+.note-checked {
+  background-color: var(--bg-note-light);
+  text-decoration: line-through;
+}
+
+.note-info {
+  display: flex;
+  gap: var(--spacing-s);
+}
+
+.note-checkbox {
+  width: 44px;
+  height: 44px;
+  accent-color: var(--color-brand-4);
+  cursor: pointer;
+}
+
+.note-text {
+  flex: 1;
+  align-self: center;
+  line-height: 1.2rem;
+  overflow-wrap: break-word;
+}
+
+.btn-del-note {
+  padding: 5px;
+  border: 0;
+  background-color: transparent;
+  color: var(--color-brand-6);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.btn-del-note:hover {
+  color: rgb(219, 5, 5);
+}
+
+.btn-del-note:active {
+  color: var(--color-brand-6);
+}
+
+/* Form */
+.input-note-form {
+  height: var(--height-form);
+  display: flex;
+  gap: var(--spacing-m);
+  align-items: flex-end;
+}
+
+.input-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.input-chars {
+  color: rgb(115, 115, 115);
+  font-size: 0.7rem;
+  align-self: flex-end;
+}
+
+.input-chars::after {
+  content: '/' attr(data-max);
+}
+
+.input-note {
+  height: 48px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 0 var(--spacing-s);
+  font-size: 1rem;
+}
+
+.btn-add-note {
+  width: 56px;
+  height: 56px;
+  border: 0;
+  border-radius: 50%;
+  background-color: var(--color-btn);
+  color: var(--color-light);
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+@media (min-width: 450px) {
+  /* Styling for Header */
+  .header {
+    border-radius: 30px 30px 0 0;
+  }
+
+  /* Styling for Main */
+  .main {
+    height: var(--height-main-desktop);
+    border-radius: 0 0 30px 30px;
+    gap: var(--spacing-s);
+  }
+}

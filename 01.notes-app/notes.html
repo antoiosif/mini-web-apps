@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <title>Οι σημειώσεις μου | Notes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon -->
+  <link rel="icon" href="./img/favicon.ico" sizes="16x16 32x32 48x48" type="image/x-icon">
+  <link rel="icon" href="./img/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="./img/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="./img/apple-touch-icon-180x180.png" sizes="180x180" type="image/png">
+  <link rel="icon" href="./img/android-chrome-192x192.png" sizes="192x192" type="image/png">
+  <!-- Google font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+  <!-- Fontawesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- Custom CSS links -->
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/notes.css">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <div class="header">
+        <a href="./index.html">
+          <img src="./img/logo.png" alt="Notes" title="Επιστροφή στην Αρχική σελίδα" width="auto" height="56" translate="no">
+          <span class="visually-hidden">Επιστροφή στην Αρχική σελίδα</span>
+        </a>
+        <div class="datetime">
+          <p id="currentDate"></p>
+          <p id="currentTime"></p>
+        </div>
+      </div>
+    </header>
+    
+    <main>
+      <div class="main">
+        <!-- Filtering -->
+        <div class="filters">
+          <button class="btn btn-filter active" data-filter="all">Όλες</button>
+          <button class="btn btn-filter" data-filter="pending">Εκκρεμείς</button>
+          <button class="btn btn-filter" data-filter="completed">Ολοκληρωμένες</button>
+        </div>
+
+        <!-- The area for the notes to be shown -->
+        <div class="notes-wrapper"></div>
+
+        <!-- Form for the user to type and add a new note -->
+        <form id="inputNoteForm" class="input-note-form">
+          <div class="input-group">
+            <span id="inputChars" class="input-chars" data-max="150">0</span>
+            <input id="inputNote" class="input-note" type="text" placeholder="Πληκτρολογήστε εδώ..." maxlength="150">
+          </div>
+          <button id="btnAddNote" class="btn btn-add-note" title="Προσθήκη σημείωσης">
+            <i class="fa-solid fa-plus" aria-hidden="true"></i>
+            <span class="visually-hidden">Προσθήκη σημείωσης</span>
+          </button>
+        </form>
+      </div>
+    </main>
+  </div>
+
+  <script src="./js/notes.js"></script>
+</body>
+</html>

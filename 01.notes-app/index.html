@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <title>Notes | Μείνετε οργανωμένοι με το ψηφιακό σημειωματάριο</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="application-name" content="NOTES">
+  <meta name="description" content="NOTES is a web app designed as a digital notepad for the users to write easily and quickly their thoughts, ideas and to-dos in the form of digital notes, helping them to stay organized and manage their tasks effectively.">
+  <!-- Favicon -->
+  <link rel="icon" href="./img/favicon.ico" sizes="16x16 32x32 48x48" type="image/x-icon">
+  <link rel="icon" href="./img/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="./img/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="./img/apple-touch-icon-180x180.png" sizes="180x180" type="image/png">
+  <link rel="icon" href="./img/android-chrome-192x192.png" sizes="192x192" type="image/png">
+  <!-- Google font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+  <!-- Fontawesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- Custom CSS links -->
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Hero image -->
+    <div class="hero-img"></div>
+
+    <!-- Quote -->
+    <div class="quote-wrapper" lang="en">
+      <p class="title">QUOTE OF THE DAY</p>
+      <blockquote>
+        <p id="quote" class="quote"></p>
+      </blockquote>
+      <p id="author" class="author"></p>
+    </div>
+
+    <!-- Next Button -->
+    <div class="btn btn-next">
+      <a href="./notes.html" title="Μετάβαση στις Σημειώσεις">
+        <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        <span class="visually-hidden">Μετάβαση στις Σημειώσεις</span>
+      </a>
+    </div>
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+</html>
