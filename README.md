@@ -2,10 +2,13 @@
 A repository with mini web apps created with **HTML**, **CSS** and **JavaScript**.
 
 [01. Notes](#notes)
+
 [02. ColorFinder](#colorfinder)
 
 ## Notes
 ![Notes app: Features and views of the frontend](./assets/images/notes-presentation.jpg)
+
+https://github.com/user-attachments/assets/0eb9c391-8956-427f-af6a-e12ac2af4008
 
 <ins>Description</ins>
 
