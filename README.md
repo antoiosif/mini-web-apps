@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/0eb9c391-8956-427f-af6a-e12ac2af4008
 
 <ins>Description</ins>
 
-[**Notes**](https://github.com/antoiosif/mini-web-apps/tree/main/02.notes-app) is a web app designed as a digital notepad for the users to write easily and quickly their thoughts, ideas and to-dos in the form of digital notes, helping them to stay organized and manage their tasks effectively.
+[**Notes**](https://github.com/antoiosif/mini-web-apps/tree/main/01.notes-app) is a web app designed as a digital notepad for the users to write easily and quickly their thoughts, ideas and to-dos in the form of digital notes, helping them to stay organized and manage their tasks effectively.
 
 <ins>Features</ins>
 
